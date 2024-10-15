@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schreibbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="typewriter-container">
+    <div class="paper">
+      <div id="introText"></div>
+      <textarea id="textInput" rows="10" cols="50" placeholder=""></textarea>
+      <!-- Final Message appears here -->
+      <div id="finalMessage"></div>
+    </div>
+    <div class="score">
+      <p>Punkte: <span id="points">0</span></p>
+      <p>Münzen: <span id="coins">0</span></p>
+    </div>
+    <!-- Success Messages and Countdown -->
+    <div id="floatingMessage" class="hidden"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
