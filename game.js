@@ -95,7 +95,7 @@ function endGame() {
   document.getElementById('textInput').disabled = true;  // Deaktiviert das Textfeld
 
   const finalMessage = document.getElementById('finalMessage');
-  finalMessage.innerText = `Gut gemacht, du hast ${totalWords} Wörter geschrieben und dadurch ${totalWords} Münzen verdient. Bald wirst du hier durch kreatives Schreiben echte Coins für einen Airdrop verdienen können. Schau regelmäßig vorbei, um einer der ersten zu sein. Bis bald!`;
+  finalMessage.innerText = `Gut gemacht, du hast ${totalWords} Wörter geschrieben und dadurch ${totalWords} Münzen verdient. Bis bald!`;
 }
 
 // Funktion zum Starten des Countdowns 10 Sekunden vor dem Ende
@@ -142,7 +142,7 @@ function startGame() {
 
 // Initialisierung
 document.addEventListener('DOMContentLoaded', () => {
-  const introText = "Willkommen bei Schreibbot. Lass uns gleich loslegen! Schreibe alles auf, was dir in den Sinn kommt, ohne Pausen oder Nachdenken. Es geht nicht um Grammatik oder Stil, sondern darum, den Schreibfluss zu starten und kreative Blockaden zu lösen. Du hast zwei Minuten Zeit, ab... jetzt!";
+  const introText = "Willkommen bei Schreibbot. Lass uns gleich loslegen! Schreibe alles auf, was dir in den Sinn kommt, ohne Pausen oder Nachdenken. Es geht nicht um Grammatik oder Stil, sondern darum, ins Schreiben zu kommen. Du hast zwei Minuten Zeit, ab... jetzt!";
   
   typeIntroText(introText, startGame);
 });
